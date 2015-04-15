@@ -1,0 +1,13 @@
+04/15/2015
+Codewars solution to: Multiply two numbers a number of times
+
+
+function multiplyBy(x, y, n) {
+    // Code goes here...
+    var product = [];
+    for (var i = 1; i <= n; i++) {
+        x = x * y;
+        product.push(x);
+    }
+    return product;
+}
