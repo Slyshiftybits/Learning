@@ -1,0 +1,15 @@
+//codewars, find prime numbers test. 
+
+function PrimeTest(a) {
+    //Have fun..
+    if (a < 2) {
+        return false;
+    }
+    for (var i = 2; i < a; i++) {
+        if (a % i === 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+}
