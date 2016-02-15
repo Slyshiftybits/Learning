@@ -1,0 +1,14 @@
+solution = function (n) {
+    var fib = [1, 1];
+        var sum = 0;
+    for (var i = 1; i < n; i++) {
+        fib.push(fib[i] + fib[i - 1]);
+        if (fib[i] % 2 === 0) {
+            sum += fib[i];
+        }
+    }
+    if (fib[i] % 2 === 0) {
+        sum += fib[i];
+    }
+    return sum;
+};
